@@ -1,0 +1,127 @@
+body, html {
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+#banner{
+    background-image:url("../images/banner.jpg");
+    height:100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#banner-text{
+    width: 500px;
+    position:absolute;
+    right:50px;
+    top: 30%;
+}
+#banner-text h1{
+    font-size: 48px;
+    letter-spacing: .05em;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+#banner-text p{
+    color:#AAA;
+    margin: 0;
+}
+
+.header{
+    background-color: #1c252c;
+    height: 100px;
+    position:relative;
+}
+.header-logo{
+    position:absolute;
+    left:30px;
+    top:50%;
+    margin-top: -10px;
+}
+.main-nav{
+    position:absolute;
+    right:30px;
+    top:50%;
+    margin-top: -10px;
+    color: #AAA
+}
+.main-nav a:link, .main-nav a:visited{
+    color:#EDE3D7;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+.main-nav a:hover{
+    color:goldenrod;
+}
+.main-nav a:active{
+    color;
+}
+.colored{
+    background-color:#EDE3D7;
+}
+.panel{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0 80px 0;
+}
+.section-title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1em;
+    font-weight: 400;
+}
+.t-centered{
+    text-align: center;
+}
+h2{
+    font-weight: 600;
+    margin-top: 50px;
+}
+.b-centered{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.include{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left;
+    border-radius: 5px;
+    padding: 50px 0 50px 0;
+    background-color:#EDE3D7;
+}
+.gray-box{
+    background-color: gray;
+    background-position: 50%;
+    color: white;
+    width: 400px;
+    height: 25px;
+    text-align: center;
+    margin-left: 30%;
+.white-box {
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detail-a{
+    text-indent: 15px;
+}
+.detail-b{
+    text-indent: 15px;
+}
+.footer{
+    text-align: center;
+    color:#EDE3D7;
+    padding: 50px 0 50px 0;
+    background-color: #1c252c;
+}
